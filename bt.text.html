@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<style>
+body{
+background-color:rgba(0,10,10,0.7);
+}
+*{
+box-sizing:border-box;
+}
+.e{
+background-color:rgba(9,180,710,0.7);
+border:none;
+width:50%;
+height:10%;
+float:left;
+color:white;
+text-align:center;
+font-size:20px;
+}
+.f{
+background-color:rgba(9,180,710,0.7);
+border:none;
+width:50%;
+height:10%;
+float:left;
+color:white;
+text-align:center;
+font-size:20px;
+}
+.a{
+border:none;
+border-radius:6px;
+width:80%;
+height:60%;
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+}
+.b{
+border:none;
+float:left;
+width:50%;
+height:60%;
+padding:20px;
+color:white;
+background-color:rgb(189,140,78,0.2);
+}
+.b label{
+display:block;
+float:left;
+width:100%;
+margin-top:20px;
+}
+
+input:hover{
+background-color:rgba(0,0,0,0.5);
+color:white;
+}
+.c input[type=submit]:hover{
+background-color:rgba(0,40,20,0.5);
+cursor:pointer;
+
+}
+.b input[type=submit]:hover{
+background-color:rgba(0,40,20,0.5);
+cursor:pointer;
+}
+.d input[type=submit]:hover{
+background-color:rgba(0,40,20,0.5);
+cursor:pointer;
+}
+input[type=text]{
+float:left;
+width:100%;
+padding:7px;
+margin-top:10px;
+border-radius:6px;
+
+}
+input[type=checkbox]{
+margin-top:10px;
+}
+.b input[type=submit]{
+margin-top:30px;
+background-color:rgba(50,90,420,0.5);
+border:none;
+padding:10px;
+color:white;
+float:right;
+border-radius:6px;
+}
+.c{
+border:none;
+float:right;
+width:50%;
+padding:20px;
+color:white;
+height:90%;
+background-color:rgb(189,140,78,0.3);
+}
+.c input[type=submit]{
+margin-top:30px;
+background-color:rgba(50,90,420,0.5);
+border:none;
+padding:10px;
+color:white;
+float:right;
+border-radius:6px;
+}
+.c label{
+display:block;
+float:left;
+width:100%;
+margin-top:20px;
+}
+.d{
+border:none;
+float:left;
+width:50%;
+padding:20px;
+color:white;
+background-color:rgb(189,140,78,0.4);
+height:30%;
+}
+.d input[type=text]{
+width:60%;
+float:left;
+margin-top:10px;
+padding:8px;
+border-radius:6px;
+}
+.d input[type=submit]{
+background-color:rgba(50,90,420,0.5);
+border:none;
+color:white;
+width:30%;
+float:left;
+padding:10px;
+margin:10px;
+border-radius:6px;
+}
+.d label{
+float:left;
+width:100%;
+margin-top:20px;
+}
+@media screen and (max-width:900px){
+    .e,.f,.b,.c,.c input[type=submit],.b input[type=submit]{
+        width:100%;
+    }
+    .d{
+    width:100%;
+   padding:10px;
+    }
+    .a{
+    border:none;
+    width:80%;
+    }
+}
+</style>
+<body>
+<div class="a">
+    <div class="e">
+        <p>LOGIN HERE!</p>
+    </div>
+    <div class="f">
+        <p>SIGN UP HERE!</p>
+    </div>
+    <div class="b"> 
+    <label>User Name<span style="color:red">*</span></label>
+    <input type="text"></input>
+    <label>Password<span style="color:red">*</span></label>
+    <input type="text"></input>
+    <input type="checkbox"> Remember Me</input>
+    <input type="submit" value="LOGIN NOW"></input>
+    </div>
+    <div class="c">
+    <label>User Name<span style="color:red">*</span></label>
+    <input type="text"></input>
+    <label>Email<span style="color:red">*</span></label>
+    <input type="text"></input>
+    <label>Password<span style="color:red">*</span></label>
+    <input type="text"></input>
+    <input type="checkbox"> I agree to the terms &conditions </input>
+    <input type="submit" value="SUBMIT">
+    </input>
+    </div>
+    <div class="d">
+    <label>Forgot Password?</label>
+    <input  type="text"></input>
+    <input type="submit" value="SUBMIT"></input>
+    </div>
+</div>
+</body>
+</html>
